@@ -6,3 +6,162 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.22;
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-wrapper {
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-container--about-me {
+    line-height: 1.5;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu__link {
+    color: #4299E1;
+    text-decoration: none;
+}
+
+.menu__item:nth-child(2n) .menu__link {
+    color: #ED8936;
+}
+
+.menu__link:hover, .menu__item:nth-child(2n) .menu__link:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.hamburger-menu {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 11px 0;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+.hamburger-item {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: #4299E1;
+    border-radius: 64px;
+    margin: 3px 0;
+}
+
+.hamburger-item--1, .hamburger-item--3 {
+    transition: all 0.3s;
+}
+
+.hamburger-menu--open .hamburger-item--1 {
+    transform: rotate(45deg);
+    position: relative;
+    top: 8px;
+}
+
+.hamburger-menu--open .hamburger-item--2 {
+    visibility: hidden;
+}
+
+.hamburger-menu--open .hamburger-item--3 {
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 8px;
+}
+
+.header__name {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-container__element {
+    width: 60px;
+    height: 10px;
+    background-color: #90CDF4;
+    border-radius: 64px;
+    margin: 25px 0;
+}
+
+.header-container-element--2 {
+    background-color: #FBD38D;
+}
+
+.header-about-me {
+    font-size: 24px;
+    color: #4299E1;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.header-about-me__element {
+    font-weight: bold;
+    color: #333333;
+}
+
+.header-container--contact {
+    margin-left: 50px;
+    padding-bottom: 27px;
+    background-image: url('img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+}
+
+.header__photo {
+    margin: 23px 0 13px 40px;
+    border: 5px solid #FBD38D;
+    border-radius: 50%;
+}
+
+.contact-information {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.contact-information__item {
+    width: 256px;
+    text-align: center;
+    padding: 8px 28px;
+    margin: 0 35px 7px 0;
+    border-radius: 64px;
+    background-color: #90CDF4;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.contact-information--tel {
+    background-color: #FBD38D;
+    margin-left: 30px;
+    margin-right: 5px;
+}

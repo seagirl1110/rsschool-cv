@@ -353,3 +353,45 @@ body {
     margin: 0;
     margin-top: 10px;
 }
+
+.footer {
+    margin-top: 20px;
+}
+
+.my-github {
+    background-color: #ED8936;
+    border-radius: 64px;
+    padding: 10px 38px;
+    align-self: center;
+}
+
+.my-github:hover {
+    background-color: #FBD38D;
+}
+
+.my-github:hover .my-github__link {
+    color: #333333;
+}
+
+.my-github__link {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__years {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    align-self: center;
+}
+
+.rs-school {
+    background-color: #90CDF4;
+    border-radius: 64px;
+    padding: 5px 38px;
+}
+
+.rs-school:hover {
+    background-color: #4299E1;
+}

@@ -128,6 +128,81 @@
                 </ul>
             </section>
         </div>
+        <div class="flex-wrapper">
+            <section id="code-example" class="code-example">
+                <h2 class="code-example__title title">Code example</h2>
+                <pre class="code-example__pre"><code class="code-example__code js">function twiceAsOld(dadYearsOld, sonYearsOld) {
+    let direction = dadYearsOld / sonYearsOld;
+    if (direction === 2) {
+        return 0;
+    } else if (direction > 2) {
+        let yearsWill = 0;
+        while (direction !== 2) {
+            dadYearsOld++;
+            sonYearsOld++;
+            yearsWill++;
+            direction = dadYearsOld / sonYearsOld;
+        }
+        return yearsWill;
+    } else {
+        let yearsAgo = 0;
+        while (direction !== 2) {
+            dadYearsOld--;
+            sonYearsOld--;
+            yearsAgo++;
+            direction = dadYearsOld / sonYearsOld;
+        }
+        return yearsAgo;
+    }
+}</code></pre>
+            </section>
+            <section id="portfolio" class="portfolio">
+                <h2 class="portfolio__title title">Portfolio</h2>
+                <div class="portfolio__inner">
+                    <article class="portfolio__item portfolio-item portfolio-item--1">
+                        <a href="https://seagirl1110.github.io/furniture-shop/" target="_blank" class="portfolio__link">
+                            <figure class="portfolio-item__figure">
+                                <img class="portfolio-item__img" src="img/portfolio-1.jpg" alt="portfolio" width="210">
+                                <figcaption class="portfolio-item__figcaption">
+                                    <h3 class="portfolio-item__title">Furniture store</h3>
+                                    <h4 class="portfolio-item__subtitle">HTML, CSS</h4>
+                                    <p class="portfolio-item__description"> Internet furniture store, home page.
+                                        <br>Adaptive layout.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="portfolio__item portfolio-item portfolio-item--2">
+                        <a href="https://seagirl1110.github.io/cognitive-biases/" target="_blank"
+                            class="portfolio__link">
+                            <figure class="portfolio-item__figure">
+                                <img class="portfolio-item__img" src="img/portfolio-2.jpg" alt="portfolio" width="210">
+                                <figcaption class="portfolio-item__figcaption">
+                                    <h3 class="portfolio-item__title">Cognitive biases</h3>
+                                    <h4 class="portfolio-item__subtitle">HTML, CSS</h4>
+                                    <p class="portfolio-item__description">Landing page of scientific article.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="portfolio__item portfolio-item portfolio-item--3">
+                        <a href="https://seagirl1110.github.io/room-design/dist/" target="_blank"
+                            class="portfolio__link">
+                            <figure class="portfolio-item__figure">
+                                <img class="portfolio-item__img" src="img/portfolio-3.jpg" alt="portfolio" width="425">
+                                <figcaption class="portfolio-item__figcaption">
+                                    <h3 class="portfolio-item__title">Room design</h3>
+                                    <h4 class="portfolio-item__subtitle">HTML, SCSS</h4>
+                                    <p class="portfolio-item__description">Landing page of an apartment design service
+                                        company.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </div>
     </main>
 </body>
 

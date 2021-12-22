@@ -44,3 +44,18 @@ if (number % 3 === 0 && number % 5 === 0) {
 
 #### OJSC JSCB "Probusinessbank" (from 01.2013 to 02.2016)
 - Opening deposits, issuing loans.
+
+
+### Education
+
+#### [2008 - 2013] Vladimir State University A.G. and N.G. Stoletovs
+Economics and Management.
+Graduated with honors.
+
+### Courses:
+- https://ru.hexlet.io/u/seagirl
+- https://htmlacademy.ru/profile/id1155399
+
+### Languages:
+- English - A1,
+- Russian - native.

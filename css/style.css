@@ -241,6 +241,15 @@ body {
     color: #ED8936;
 }
 
+.certificate__img {
+    box-shadow: 0px 0px 5px 2px #fbd38d;
+}
+
+.languages {
+    position: absolute;
+    bottom: 5px;
+}
+
 .languages__list {
     display: flex;
 }
@@ -258,8 +267,8 @@ body {
 
 .skills {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 320px;
+    left: 0;
 }
 
 .skills__list {
@@ -273,7 +282,7 @@ body {
     background-color: #FBD38D;
     color: #333333;
     border-radius: 64px;
-    padding: 8px 35px;
+    padding: 8px 40px;
     margin: 5px 7px;
 }
 
@@ -328,7 +337,7 @@ body {
     right: 0;
     padding: 25px 5px;
     text-align: center;
-    background-color: rgba(251, 211, 141, 0.6);
+    background-color: rgba(251, 211, 141, 0.65);
 }
 
 .portfolio-item__figcaption:hover {

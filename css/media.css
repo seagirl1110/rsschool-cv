@@ -54,13 +54,13 @@
     }
 
     .position-container {
-        padding-bottom: 550px;
+        padding-bottom: 460px;
         margin-bottom: 30px;
     }
 
     .work-experiences {
         position: relative;
-        top: -40px;
+        top: -20px;
     }
 
     .experiences-item {
@@ -83,7 +83,7 @@
     }
 
     .languages {
-        top: 310px;
+        position: static;
     }
 
     .skills {
@@ -109,7 +109,7 @@
     }
 }
 
-@media all and (max-width: 599px) {
+@media all and (max-width: 620px) {
     .header {
         flex-wrap: wrap;
     }
@@ -127,6 +127,10 @@
         margin: 0 5px;
     }
 
+    .header-container-element--2 {
+        margin: 5px 0 15px;
+    }
+
     .header-container--contact {
         margin-left: auto;
     }
@@ -137,6 +141,10 @@
 
     .flex-wrapper__item {
         width: 100%;
+    }
+
+    .position-container {
+        padding-bottom: 0;
     }
 
     .education {
@@ -151,8 +159,16 @@
         position: static;
     }
 
+    .certificate__wrapper {
+        position: static;
+    }
+
     .portfolio-item__figcaption {
         padding: 10px 5px;
+    }
+
+    .portfolio-item__description {
+        margin-top: 5px;
     }
 
     .footer {

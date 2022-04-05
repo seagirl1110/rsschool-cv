@@ -309,6 +309,7 @@ body {
 .portfolio__link {
     text-decoration: none;
     color: #333333;
+    text-shadow: 1px 1px 3px #fafafa;
 }
 
 .portfolio-item__figure {
@@ -345,13 +346,13 @@ body {
     font-size: 12px;
     font-weight: bold;
     margin: 0;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 .portfolio-item__description {
     font-size: 14px;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .footer {

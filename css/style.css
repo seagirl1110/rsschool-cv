@@ -223,7 +223,7 @@ body {
     margin-left: 50px;
 }
 
-.courses, .certificate {
+.courses {
     font-size: 16px;
     font-weight: bold;
     margin: 25px 0 15px 0;
@@ -233,17 +233,22 @@ body {
     margin-top: 5px;
 }
 
-.courses__link, .certificate__link {
+.courses__link {
     color: #4299E1;
     text-decoration: none;
 }
 
-.courses__link:hover, .certificate__link:hover {
+.courses__link:hover {
     color: #ED8936;
+}
+
+.certificate__wrapper {
+    margin-top: 20px;
 }
 
 .certificate__img {
     box-shadow: 0px 0px 5px 2px #fbd38d;
+    max-width: 420px;
 }
 
 .languages {
@@ -331,14 +336,21 @@ body {
 }
 
 .portfolio-item__figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 25px 5px;
+    padding: 25px 10px;
     text-align: center;
     background-color: rgba(251, 211, 141, 0.65);
+}
+
+.portfolio-item--3 .portfolio-item__figcaption {
+    padding: 25px 50px;
 }
 
 .portfolio-item__figcaption:hover {

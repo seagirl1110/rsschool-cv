@@ -168,6 +168,7 @@ body {
 
 .position-container {
     position: relative;
+    padding-bottom: 20px;
 }
 
 .flex-wrapper {
@@ -225,7 +226,7 @@ body {
 .courses, .certificate {
     font-size: 16px;
     font-weight: bold;
-    margin: 15px 0 10px 0;
+    margin: 25px 0 15px 0;
 }
 
 .courses__name {
@@ -247,7 +248,7 @@ body {
 
 .languages {
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
 }
 
 .languages__list {
@@ -267,7 +268,7 @@ body {
 
 .skills {
     position: absolute;
-    top: 320px;
+    top: 330px;
     left: 0;
 }
 

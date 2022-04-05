@@ -222,7 +222,7 @@ body {
     margin-left: 50px;
 }
 
-.courses {
+.courses, .certificate {
     font-size: 16px;
     font-weight: bold;
     margin: 15px 0 10px 0;
@@ -232,12 +232,12 @@ body {
     margin-top: 5px;
 }
 
-.courses__link {
+.courses__link, .certificate__link {
     color: #4299E1;
     text-decoration: none;
 }
 
-.courses__link:hover {
+.courses__link:hover, .certificate__link:hover {
     color: #ED8936;
 }
 
@@ -258,7 +258,7 @@ body {
 
 .skills {
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
     right: 0;
 }
 

@@ -163,13 +163,38 @@
         position: static;
     }
 
-    .portfolio-item__figcaption {
-        padding: 10px 5px;
+    .portfolio__inner {
+        display: flex;
+        flex-direction: column;
     }
 
-    .portfolio-item__description {
-        margin-top: 5px;
+    .portfolio__item {
+        margin-bottom: 10px;
     }
+
+    .portfolio-item--3 {
+
+        order: 1;
+    }
+
+    .portfolio-item--2 {
+
+        order: 2;
+    }
+
+    .portfolio-item__figcaption {
+        padding: 10px;
+    }
+
+    .portfolio-item--3 .portfolio-item__figcaption {
+        padding: 10px;
+    }
+
+    .portfolio-item--3 .portfolio-item__img {
+        min-height: 420px;
+        object-fit: cover;
+    }
+
 
     .footer {
         flex-wrap: nowrap;
@@ -199,5 +224,9 @@
 
     .menu__item:nth-child(2n+6) .menu__link {
         color: #4299E1;
+    }
+
+    .portfolio-item--3 .portfolio-item__img {
+        min-height: 290px;
     }
 }

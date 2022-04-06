@@ -403,6 +403,10 @@ body {
     text-decoration: none;
 }
 
+.footer {
+    padding-bottom: 5px;
+}
+
 .footer__years {
     font-size: 14px;
     font-weight: bold;

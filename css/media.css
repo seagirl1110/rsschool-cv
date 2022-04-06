@@ -215,7 +215,7 @@
     }
 
     .menu__item {
-        margin: 0 2px;
+        margin: 0 4px;
     }
 
     .menu__item:nth-child(2n+5) .menu__link {

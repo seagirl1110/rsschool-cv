@@ -142,18 +142,15 @@
             <section id="code-example" class="code-example">
                 <h2 class="code-example__title title">Code example</h2>
                 <pre class="code-example__pre"><code class="code-example__code js">
-                    let number = 15;
-                    let taskResult;
-                    
-                    if (number % 3 === 0 && number % 5 === 0) {
-                        taskResult = 'FizzBuzz';
-                    } else if (number % 3 === 0) {
-                        taskResult = 'Fizz';
-                    } else if (number % 5 === 0) {
-                        taskResult = 'Buzz';
-                    } else {
-                        taskResult = number;
-                    }    
+                    class Animal {
+                        constructor(name, type) {
+                          this.name = name;
+                          this.type = type;
+                        }
+                        toString() {
+                          return `${this.name} is a ${this.type}`
+                        }
+                      }
                 </code></pre>
             </section>
             <section id="portfolio" class="portfolio">

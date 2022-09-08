@@ -18,7 +18,7 @@
 <body>
     <header class="header center-wrapper">
         <div class="header__container header-container header-container--about-me about-me">
-            <button class="header__hamburger-menu hamburger-menu">
+            <button type="button" class="header__hamburger-menu hamburger-menu">
                 <span class="hamburger-menu__item hamburger-item hamburger-item--1"></span>
                 <span class="hamburger-menu__item hamburger-item hamburger-item--2"></span>
                 <span class="hamburger-menu__item hamburger-item hamburger-item--3"></span>
@@ -141,30 +141,20 @@
         <div class="flex-wrapper">
             <section id="code-example" class="code-example">
                 <h2 class="code-example__title title">Code example</h2>
-                <pre class="code-example__pre"><code class="code-example__code js">function twiceAsOld(dadYearsOld, sonYearsOld) {
-    let direction = dadYearsOld / sonYearsOld;
-    if (direction === 2) {
-        return 0;
-    } else if (direction > 2) {
-        let yearsWill = 0;
-        while (direction !== 2) {
-            dadYearsOld++;
-            sonYearsOld++;
-            yearsWill++;
-            direction = dadYearsOld / sonYearsOld;
-        }
-        return yearsWill;
-    } else {
-        let yearsAgo = 0;
-        while (direction !== 2) {
-            dadYearsOld--;
-            sonYearsOld--;
-            yearsAgo++;
-            direction = dadYearsOld / sonYearsOld;
-        }
-        return yearsAgo;
-    }
-}</code></pre>
+                <pre class="code-example__pre"><code class="code-example__code js">
+                    let number = 15;
+                    let taskResult;
+                    
+                    if (number % 3 === 0 && number % 5 === 0) {
+                        taskResult = 'FizzBuzz';
+                    } else if (number % 3 === 0) {
+                        taskResult = 'Fizz';
+                    } else if (number % 5 === 0) {
+                        taskResult = 'Buzz';
+                    } else {
+                        taskResult = number;
+                    }    
+                </code></pre>
             </section>
             <section id="portfolio" class="portfolio">
                 <h2 class="portfolio__title title">Portfolio</h2>
@@ -195,7 +185,8 @@
                                     <h3 class="portfolio-item__title">Image gallery</h3>
                                     <h4 class="portfolio-item__subtitle">HTML, CSS, JS</h4>
                                     <p class="portfolio-item__description">Free photos on your topic.</p>
-                                    <p class="portfolio-item__description">Search photos, get data from API and display it on web page.</p>
+                                    <p class="portfolio-item__description">Search photos, get data from API and display
+                                        it on web page.</p>
                                 </figcaption>
                             </figure>
                         </a>

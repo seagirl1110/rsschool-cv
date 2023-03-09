@@ -350,15 +350,12 @@ body {
     text-align: center;
 }
 
-.portfolio-item .portfolio-item__figcaption {
-    display: flex;
-}
-
 .portfolio-item--3 .portfolio-item__figcaption {
     padding: 25px 50px;
 }
 
 .portfolio-item__figcaption:hover {
+    display: flex;
     transition: all 0.5s ease-in-out;
     background-color: rgba(251, 211, 141, 0.8);
 }

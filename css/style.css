@@ -251,7 +251,7 @@ body {
 }
 
 .languages {
-    bottom: 0;
+    margin-bottom: 0;
 }
 
 .languages__list {
@@ -272,21 +272,23 @@ body {
 .skills__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 20px;
+    justify-content: center;
 }
 
 .skills__item {
     font-weight: bold;
-    background-color: #FBD38D;
-    color: #333333;
+    background-color: #63B3ED;
+    color: #FFFFFF;
     border-radius: 64px;
     padding: 8px 40px;
     margin: 5px 7px;
 }
 
-.skills__item:nth-child(2n) {
-    background-color: #63B3ED;
-    color: #FFFFFF;
+.skills__item:nth-child(n+4):nth-child(-n+5),
+.skills__item:nth-child(n+9) {
+    background-color: #FBD38D;
+    color: #333333;
 }
 
 .code-example__pre {

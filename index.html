@@ -164,13 +164,23 @@
             <section id="code-example" class="code-example">
                 <h2 class="code-example__title title">Code example</h2>
                 <pre class="code-example__pre"><code class="code-example__code js">
-                    class Animal {
-                        constructor(name, type) {
-                          this.name = name;
-                          this.type = type;
+                    class Cart {
+                        items = [];
+                      
+                        addItem(item, count) {
+                          this.items.push({ item, count });
                         }
-                        toString() {
-                          return `${this.name} is a ${this.type}`
+                      
+                        getItems() {
+                          return this.items;
+                        }
+                      
+                        getCost() {
+                          return this.items.reduce((acc, item) =&gt; acc + item.item.price * item.count, 0);
+                        }
+                      
+                        getCount() {
+                          return this.items.reduce((acc, item) =&gt; acc + item.count, 0);
                         }
                       }
                 </code></pre>

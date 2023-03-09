@@ -338,7 +338,7 @@ body {
 }
 
 .portfolio-item__figcaption {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     position: absolute;
@@ -348,6 +348,10 @@ body {
     right: 0;
     padding: 25px 10px;
     text-align: center;
+}
+
+.portfolio-item .portfolio-item__figcaption {
+    display: flex;
 }
 
 .portfolio-item--3 .portfolio-item__figcaption {

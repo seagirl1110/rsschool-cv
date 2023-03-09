@@ -64,9 +64,9 @@ if (number % 3 === 0 && number % 5 === 0) {
 Economics and Management. Graduated with honors.
 
 ### Courses:
-- [hexlet/seagirl] (https://ru.hexlet.io/u/seagirl)
-- [htmlacademy/id1155399] (https://htmlacademy.ru/profile/id1155399)
-- [rs.school] (https://rs.school/js/)
+- [hexlet/seagirl](https://ru.hexlet.io/u/seagirl)
+- [htmlacademy/id1155399](https://htmlacademy.ru/profile/id1155399)
+- [rs.school](https://rs.school/js/)
 
 ### Languages:
 - English - A1,

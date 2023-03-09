@@ -1,18 +1,22 @@
 # Marina Elizarova
-tg: @Seagirl1110 | mob: +79995171677 | email: seagirl1110@gmail.com
+**tg:** @Seagirl1110 | **mob:** +79995171677 | **email:** seagirl1110@gmail.com
 
 
 ### Personal information
-My goal is to become a front-end developer. 
-There is a great desire to develop in this direction.
+I am a frontend developer.
+I like to develop interesting projects. I want improve my skills and to develop in this direction.
 
 
 ### Skills
 - HTML,
-- CSS,
+- CSS, 
+- SCSS,
 - BEM,
 - JavaScript,
-- Git.
+- TS,
+- Git,
+- Webpack,
+- React.
 
 
 ### Code example
@@ -34,27 +38,35 @@ if (number % 3 === 0 && number % 5 === 0) {
 
 ### Experience:
 
-#### CJSC "PO "MZTA" (from 02.2020 to 09.2021)
+#### LLS "Red Soft" (06.2022 - present)
+##### Frontend developer
+- Development of new projects;
+- Development and support of current projects;
+
+#### CJSC "PO "MZTA" (02.2020 - 09.2021)
+##### Account manager
 - Sale of goods produced by the plant.
 
-#### LLC "Beehive" (from 12.2016 to 08.2019)
+#### LLC "Beehive" (12.2016 - 08.2019)
+##### Account manager
 - Sale of services (promotion, website development);
 - Customer support throughout the entire period of cooperation;
 - Development of technical specifications and setting tasks for the development department.
 
-#### OJSC JSCB "Probusinessbank" (from 01.2013 to 02.2016)
+#### OJSC JSCB "Probusinessbank" (01.2013 - 02.2016)
+##### Account manager
 - Opening deposits, issuing loans.
 
 
 ### Education
 
-#### [2008 - 2013] Vladimir State University A.G. and N.G. Stoletovs
-Economics and Management.
-Graduated with honors.
+#### 2008 - 2013 Vladimir State University A.G. and N.G. Stoletovs
+Economics and Management. Graduated with honors.
 
 ### Courses:
-- https://ru.hexlet.io/u/seagirl
-- https://htmlacademy.ru/profile/id1155399
+- [hexlet/seagirl] (https://ru.hexlet.io/u/seagirl)
+- [htmlacademy/id1155399] (https://htmlacademy.ru/profile/id1155399)
+- [rs.school] (https://rs.school/js/)
 
 ### Languages:
 - English - A1,

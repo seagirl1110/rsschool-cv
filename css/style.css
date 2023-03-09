@@ -166,20 +166,22 @@ body {
     margin-right: 5px;
 }
 
-.position-container {
-    position: relative;
-    padding-bottom: 20px;
-}
-
 .flex-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
+.flex-wrapper--main {
+    flex-direction: column;
+    height: 630px;
+    gap: 5px 50px;
+    margin-bottom: 10px;
+}
+
 .flex-wrapper__item {
     width: calc(100% / 2 - 25px);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -192,7 +194,7 @@ body {
 .work-experiences {
     background-image: url('../assets/img/work.jpg');
     background-repeat: no-repeat;
-    background-position: top 35px left 3px;
+    background-position: top 75px left 3px;
 }
 
 .clear-ul {
@@ -206,7 +208,7 @@ body {
 }
 
 .experiences-item {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .experiences-item__years, .education-item__years {
@@ -219,14 +221,10 @@ body {
     margin-bottom: 2px;
 }
 
-.education {
-    margin-left: 50px;
-}
-
 .courses {
     font-size: 16px;
     font-weight: bold;
-    margin: 25px 0 15px 0;
+    margin-top: 15px;
 }
 
 .courses__name {
@@ -243,7 +241,7 @@ body {
 }
 
 .certificate__wrapper {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .certificate__img {
@@ -253,8 +251,7 @@ body {
 }
 
 .languages {
-    position: absolute;
-    bottom: 20px;
+    bottom: 0;
 }
 
 .languages__list {
@@ -270,12 +267,6 @@ body {
     border: 2px solid #FBD38D;
     border-radius: 50%;
     background-color: #FBD38D;
-}
-
-.skills {
-    position: absolute;
-    top: 330px;
-    left: 0;
 }
 
 .skills__list {

@@ -1,3 +1,23 @@
+@media all and (max-width: 925px) {
+    .skills__list {
+        column-gap: 20px;
+    }
+}
+
+@media all and (max-width: 908px) {
+    .flex-wrapper--main {
+        gap: 5px 20px;
+    }
+
+    .skills__list {
+        column-gap: 15px;
+    }
+
+    .code-example {
+        margin: 20px auto;
+    }
+}
+
 @media all and (max-width: 889px) {
     .center-wrapper {
         max-width: 630px;
@@ -53,9 +73,12 @@
         margin-right: -15px;
     }
 
-    .position-container {
-        padding-bottom: 460px;
-        margin-bottom: 30px;
+    .flex-wrapper--main {
+        height: auto;
+    }
+
+    .flex-wrapper__item {
+        width: 100%;
     }
 
     .work-experiences {
@@ -71,26 +94,8 @@
         margin-bottom: 0;
     }
 
-    .certificate__wrapper {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
-
     .certificate__img {
         max-width: 600px;
-    }
-
-    .languages {
-        position: static;
-    }
-
-    .skills {
-        bottom: 0;
-        left: auto;
-        right: 0;
-        top: 260px;
     }
 
     .skills__item {
@@ -98,6 +103,23 @@
         padding: 8px 6px;
         width: 48%;
         text-align: center;
+        background-color: #63B3ED;
+        color: #FFFFFF;
+    }
+
+    .skills__item:nth-child(n+4):nth-child(-n+5),
+    .skills__item:nth-child(n+9) {
+        background-color: #63B3ED;
+        color: #FFFFFF;
+    }
+
+
+    .skills__item:nth-child(n+2):nth-child(-n+3),
+    .skills__item:nth-child(n+6):nth-child(-n+7),
+    .skills__item:nth-child(n+10)
+     {
+        background-color: #FBD38D;
+        color: #333333;
     }
 
     .code-example, .portfolio, .portfolio-item__img {
@@ -139,14 +161,6 @@
         margin-top: 10px;
     }
 
-    .flex-wrapper__item {
-        width: 100%;
-    }
-
-    .position-container {
-        padding-bottom: 0;
-    }
-
     .education {
         margin-left: 0;
     }
@@ -155,13 +169,6 @@
         justify-content: space-around;
     }
 
-    .skills {
-        position: static;
-    }
-
-    .certificate__wrapper {
-        position: static;
-    }
 
     .portfolio__inner {
         display: flex;

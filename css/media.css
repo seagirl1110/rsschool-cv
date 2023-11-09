@@ -1,0 +1,239 @@
+@media all and (max-width: 925px) {
+    .skills__list {
+        column-gap: 20px;
+    }
+}
+
+@media all and (max-width: 908px) {
+    .flex-wrapper--main {
+        gap: 5px 20px;
+    }
+
+    .skills__list {
+        column-gap: 15px;
+    }
+
+    .code-example {
+        margin: 20px auto;
+    }
+}
+
+@media all and (max-width: 889px) {
+    .center-wrapper {
+        max-width: 630px;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: #ffffff;
+        top: -100%;
+        right: 0;
+        left: 55px;
+        transition: all 0.3s;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .hamburger-menu--open+.menu {
+        top: 0;
+    }
+
+    .hamburger-menu {
+        display: inline-block;
+    }
+
+    .header-container-element--1 {
+        display: none;
+    }
+
+    .header-container-element--2 {
+        margin: 15px 0 30px;
+        height: 5px;
+    }
+
+    .header-container--about-me {
+        line-height: 1.25;
+    }
+
+    .header-about-me {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .header__name {
+        margin-top: 10px;
+    }
+
+    .header-container--contact {
+        margin-left: 30px;
+        margin-right: -15px;
+    }
+
+    .flex-wrapper--main {
+        height: auto;
+    }
+
+    .flex-wrapper__item {
+        width: 100%;
+    }
+
+    .work-experiences {
+        position: relative;
+        top: -20px;
+    }
+
+    .experiences-item {
+        margin-bottom: 15px;
+    }
+
+    .experiences-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .certificate__img {
+        max-width: 600px;
+    }
+
+    .skills__item {
+        margin: 5px 0;
+        padding: 8px 6px;
+        width: 48%;
+        text-align: center;
+        background-color: #63B3ED;
+        color: #FFFFFF;
+    }
+
+    .skills__item:nth-child(n+4):nth-child(-n+5),
+    .skills__item:nth-child(n+9) {
+        background-color: #63B3ED;
+        color: #FFFFFF;
+    }
+
+
+    .skills__item:nth-child(n+2):nth-child(-n+3),
+    .skills__item:nth-child(n+6):nth-child(-n+7),
+    .skills__item:nth-child(n+10)
+     {
+        background-color: #FBD38D;
+        color: #333333;
+    }
+
+    .code-example, .portfolio, .portfolio-item__img {
+        width: 100%;
+    }
+
+    .portfolio {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 620px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .hamburger-menu {
+        margin: 10px 0;
+    }
+
+    .menu__list {
+        justify-content: flex-start;
+    }
+
+    .menu__item {
+        line-height: 1.70;
+        margin: 0 5px;
+    }
+
+    .header-container-element--2 {
+        margin: 5px 0 15px;
+    }
+
+    .header-container--contact {
+        margin-left: auto;
+    }
+
+    .main {
+        margin-top: 10px;
+    }
+
+    .education {
+        margin-left: 0;
+    }
+
+    .languages__list {
+        justify-content: space-around;
+    }
+
+
+    .portfolio__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio__item {
+        margin-bottom: 10px;
+    }
+
+    .portfolio-item--3 {
+
+        order: 1;
+    }
+
+    .portfolio-item--2 {
+
+        order: 2;
+    }
+
+    .portfolio-item__figcaption {
+        padding: 10px;
+    }
+
+    .portfolio-item--3 .portfolio-item__figcaption {
+        padding: 10px;
+    }
+
+    .portfolio-item--3 .portfolio-item__img {
+        min-height: 420px;
+        object-fit: cover;
+    }
+
+
+    .footer {
+        flex-wrap: nowrap;
+    }
+
+    .my-github {
+        padding: 10px 20px;
+    }
+
+    .rs-school {
+        padding: 3px 20px;
+    }
+}
+
+@media all and (max-width: 377px) {
+    .menu__list {
+        justify-content: space-between;
+    }
+
+    .menu__item {
+        margin: 0 4px;
+    }
+
+    .menu__item:nth-child(2n+5) .menu__link {
+        color: #ED8936;
+    }
+
+    .menu__item:nth-child(2n+6) .menu__link {
+        color: #4299E1;
+    }
+
+    .portfolio-item--3 .portfolio-item__img {
+        min-height: 290px;
+    }
+}
